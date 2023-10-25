@@ -107,14 +107,16 @@ audio::-webkit-media-controls-panel {
     background-color: black;
     color: red;
     text-align: center;
-    padding: 100px 0; 
+    padding: 100px 0;
 }
 
 .team-title {
-    font-size: 2.5em; 
-    font-weight: bolder; 
-    margin-bottom: 40px; 
-    text-shadow: 0 0 10px rgba(255, 0, 0, 0.8), 0 0 30px rgba(255, 0, 0, 0.8), 0 0 50px rgba(255, 0, 0, 0.8);
+    font-family: 'Bernoru Expanded', sans-serif;
+    font-size: 3em;
+    font-weight: 900;
+    color: red;
+    margin-bottom: 10px;
+    text-shadow: 0 0 5px rgba(255, 0, 0, 0.8), 0 0 15px rgba(255, 0, 0, 0.8), 0 0 25px rgba(255, 0, 0, 0.8);
 }
 
 .team-member {
@@ -130,8 +132,53 @@ audio::-webkit-media-controls-panel {
 
 .team-member div {
     color: red;
-    font-weight: bolder;
+    font-weight: bolder; 
     margin-top: 20px; 
     font-size: 1.2em; 
     text-shadow: 0 0 10px rgba(255, 0, 0, 0.8), 0 0 30px rgba(255, 0, 0, 0.8), 0 0 50px rgba(255, 0, 0, 0.8);
+}
+
+.about-section {
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+}
+
+.about-title {
+    font-family: 'Bernoru Expanded', sans-serif;
+    font-size: 3em;
+    font-weight: 900;
+    color: red;
+    margin-bottom: 10px;
+    text-shadow: 0 0 5px rgba(255, 0, 0, 0.8), 0 0 15px rgba(255, 0, 0, 0.8), 0 0 25px rgba(255, 0, 0, 0.8);
+}
+
+.about-paragraph {
+    color: white;
+    font-size: 1.2em;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8), 0 0 15px rgba(255, 255, 255, 0.8), 0 0 25px rgba(255, 255, 255, 0.8);
+}
+
+/* ... previous styles ... */
+
+.episodes {
+    background-image: url('IMG/background.jpeg'); 
+    background-size: auto 100%; 
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.episodes-title {
+    font-family: 'Bernoru Expanded', sans-serif;
+    font-size: 3em;
+    font-weight: 900;
+    color: red;
+    margin-bottom: 20px;
+    text-shadow: 0 0 5px rgba(255, 0, 0, 0.8), 0 0 15px rgba(255, 0, 0, 0.8), 0 0 25px rgba(255, 0, 0, 0.8);
 }
