@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black; 
+}
+
+.menu-bar {
+    width: 100%;
+    position: fixed;
+    top: 20px;
+    z-index: 1;
+    background-color: transparent; 
+}
+
+.menu-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-bar li {
+    margin: 0 10px;
+}
+
+.menu-bar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 5px white, 0 0 15px white, 0 0 25px white;
+}
+
+
+.title-sec {
+    background-image: url('IMG/background.jpeg'); 
+    background-size: auto 100%; 
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+}
+
+
+.glowing-text {
+    text-align: center;
+}
+
+.line {
+    font-family: 'Bernoru Expanded', sans-serif;
+    font-size: 5em;
+    font-weight: 900;
+    color: red;
+    margin-bottom: -20px; 
+    text-shadow: 0 0 5px rgba(255, 0, 0, 0.8), 0 0 15px rgba(255, 0, 0, 0.8), 0 0 25px rgba(255, 0, 0, 0.8);
+}
+
+.sec-2 {
+    background-color: rgba(23, 27, 32, 1);
+    width: 100%;
+    height: 10cm; 
+    text-align: center;
+    position: relative;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+audio {
+    width: 75%; 
+    background-color: rgb(153, 15, 15); 
+    color: white; 
+    border: none; 
+    padding: 10px; 
+    border-radius: 5px; 
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: rgb(153, 15, 15); 
+    border-radius: 5px; 
+}
+
+.sec-3 {
+    background-color: rgba(23, 27, 32, 1); 
+    width: 100%; 
+    height: auto; 
+    max-height: 100vh; 
+}
+
+.building-image {
+    width: 100%;
+    height: auto; 
+    max-height: 100%; 
+}
