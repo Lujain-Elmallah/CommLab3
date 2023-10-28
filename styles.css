@@ -30,6 +30,7 @@ body {
 
 .menu-bar a {
     text-decoration: none;
+    font-family: 'Bernoru Expanded', sans-serif;
     color: white;
     font-weight: bold;
     text-shadow: 0 0 5px white, 0 0 15px white, 0 0 25px white;
@@ -131,6 +132,7 @@ audio::-webkit-media-controls-panel {
 }
 
 .team-member div {
+    font-family: 'Bernoru Expanded', sans-serif;
     color: red;
     font-weight: bolder; 
     margin-top: 20px; 
@@ -154,6 +156,7 @@ audio::-webkit-media-controls-panel {
 }
 
 .about-paragraph {
+    font-family: 'Bernoru Expanded', sans-serif;
     color: white;
     font-size: 1.2em;
     text-shadow: 0 0 5px rgba(255, 255, 255, 0.8), 0 0 15px rgba(255, 255, 255, 0.8), 0 0 25px rgba(255, 255, 255, 0.8);
@@ -183,11 +186,9 @@ audio::-webkit-media-controls-panel {
     text-shadow: 0 0 5px rgba(255, 0, 0, 0.8), 0 0 15px rgba(255, 0, 0, 0.8), 0 0 25px rgba(255, 0, 0, 0.8);
 }
 
-/* ... previous styles ... */
-
 .contact-form {
-    margin-top: 50px; /* Adjust the top margin as needed */
-    padding: 20px; /* Optional: Add some padding inside the form */
+    margin-top: 50px; 
+    padding: 20px; 
 }
 
 .contact-form form {
@@ -196,8 +197,9 @@ audio::-webkit-media-controls-panel {
 
 .contact-form label {
     color: red;
+    font-family: 'Bernoru Expanded', sans-serif;
     font-weight: bold;
-    margin-bottom: 10px; /* Add margin between labels and input fields */
+    margin-bottom: 10px; 
 }
 
 .contact-form input[type="text"],
@@ -205,9 +207,10 @@ audio::-webkit-media-controls-panel {
 .contact-form textarea {
     width: 100%;
     padding: 10px;
-    margin-bottom: 15px; /* Add more margin between input fields */
+    margin-bottom: 15px;
     border: 1px solid red;
     border-radius: 5px;
+    font-family: 'Bernoru Expanded', sans-serif;
     font-size: 16px;
 }
 
@@ -216,6 +219,7 @@ audio::-webkit-media-controls-panel {
     color: white;
     border: none;
     padding: 15px 30px;
+    font-family: 'Bernoru Expanded', sans-serif;
     font-size: 18px;
     border-radius: 5px;
     cursor: pointer;
